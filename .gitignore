@@ -1,0 +1,24 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# .NET
+bin/
+obj/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated CSV exports
+exports/*
+!exports/.gitkeep
+
+# IDE and macOS
+.vscode/
+.idea/
+.DS_Store
